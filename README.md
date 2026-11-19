@@ -1,4 +1,4 @@
-# SMDRPD â€” Synthetic Multimodal Depression Risk Prediction Dataset
+# SMDRPD Synthetic Multimodal Depression Risk Prediction Dataset
 
 A **reproducible, fully synthetic** multimodal dataset for research on machine-learning-based
 depression-risk prediction. It combines 10 simulated psychometric assessment features with 512
