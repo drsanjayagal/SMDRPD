@@ -1,0 +1,1 @@
+"""Evaluation utilities: metrics, statistical validation, confidence intervals, reports."""

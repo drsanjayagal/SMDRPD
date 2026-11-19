@@ -1,0 +1,4 @@
+class_value,class_label,count,proportion
+0,lower_synthetic_risk,118,0.236
+1,moderate_synthetic_risk,214,0.428
+2,higher_synthetic_risk,168,0.336

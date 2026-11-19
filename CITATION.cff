@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "SMDRPD: A Reproducible Synthetic Multimodal Dataset for Machine Learning-Based Depression Risk Prediction"
+version: 1.0.0
+date-released: "2026-01-01"          # update to the actual release date
+license: CC-BY-4.0
+doi: "10.5281/zenodo.PLACEHOLDER"     # replace with the real DOI after Zenodo publication
+authors:
+  - family-names: Agal
+    given-names: Sanjay
+    affiliation: "Independent Researcher"
+    role: "Synthetic Dataset Developer and Creator"
+repository-code: "https://github.com/drsanjayagal/SMDRPD"
+keywords:
+  - synthetic data
+  - multimodal learning
+  - psychometric features
+  - facial expression representations
+  - depression risk prediction
+  - explainable AI

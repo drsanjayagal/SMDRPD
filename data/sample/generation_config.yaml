@@ -1,0 +1,31 @@
+project:
+  name: SMDRPD
+  version: 1.0.0
+  dataset_name: Synthetic Multimodal Depression Risk Prediction Dataset
+generation:
+  base_seed: 20240115
+  n_records: 100000
+  batch_size: 10000
+  observations_per_subject: 1
+  distribution_shift: 0.0
+  modality_dropout_rate: 0.0
+  class_scenario: moderate_imbalance
+features:
+  n_psychometric: 10
+  n_facial: 512
+  n_blocks: 8
+target:
+  calibration_size: 20000
+  nonlinear_strength: 0.45
+  noise_sd: 0.55
+output:
+  formats:
+  - parquet
+  redundant_modalities: true
+  sample_records: 500
+  statistics_sample_rows: 200000
+paths:
+  output_dir: data/processed
+  sample_dir: data/sample
+  metadata_dir: data/metadata
+  results_dir: results
